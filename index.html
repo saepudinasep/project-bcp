@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cek Hasil KBIJ | WOM Finance</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="bg-light">
+    <div class="container py-3">
+      <h1 class="mb-4 text-center">Cek Hasil KBIJ - WOM Finance</h1>
+      <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+          <h5 class="mb-0 small">Silahkan Isi Form Dibawah Dengan Benar!</h5>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Request By</h5>
+          <form id="faqForm" method="POST" novalidate>
+            <!-- Brand and Region -->
+            <div class="row mb-2">
+              <div class="col-md-6">
+                <label for="brand" class="form-label small text-muted"
+                  >Brand</label
+                >
+                <select id="brand" class="form-select form-select-sm" required>
+                  <option value="">-- Pilih Brand --</option>
+                  <option value="nb">Reguler</option>
+                  <option value="mas">MasKu</option>
+                  <option value="mtr">MotorKu</option>
+                  <option value="mbl">MobilKu</option>
+                </select>
+                <div class="invalid-feedback">Brand harus dipilih!</div>
+              </div>
+              <div class="col-md-6">
+                <label for="errorSystem" class="form-label small text-muted"
+                  >Region</label
+                >
+                <select
+                  id="errorSystem"
+                  name="entry.900671353"
+                  class="form-select form-select-sm"
+                >
+                  <option value="">-- Pilih Region --</option>
+                  <option value="jabodebek">JABODEBEK</option>
+                  <option value="mss">SUMBAGUT</option>
+                  <option value="wise">SUMBAGSEL</option>
+                  <option value="login">SULAWESI</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Cabang and Cabang -->
+            <div class="row mb-2">
+              <div class="col-md-6">
+                <label for="region" class="form-label small text-muted"
+                  >Cabang</label
+                >
+                <select
+                  id="region"
+                  name="entry.453750574"
+                  class="form-select form-select-sm"
+                >
+                  <option value="">-- Pilih Cabang --</option>
+                  <!-- Region options will be added dynamically -->
+                </select>
+              </div>
+              <div class="col-md-6">
+                <label for="nik" class="form-label small text-muted"
+                  >NIK - Nama</label
+                >
+                <select
+                  id="cabang"
+                  name="entry.27483305"
+                  class="form-select form-select-sm"
+                >
+                  <option value="">-- Pilih NIK - Nama --</option>
+                  <!-- Cabang options will be added dynamically -->
+                </select>
+              </div>
+            </div>
+            <h5 class="card-title mt-4">Data Pemohon</h5>
+            <!-- Nama Cust and NIK KTP -->
+            <div class="row mb-4">
+              <div class="col-md-6">
+                <label for="NCust" class="form-label small text-muted"
+                  >Nama Cust</label
+                >
+                <input
+                  type="text"
+                  id="NCust"
+                  name="entry.349701399"
+                  class="form-control form-control-sm"
+                />
+              </div>
+              <div class="col-md-6">
+                <label for="IdCust" class="form-label small text-muted"
+                  >NIK KTP</label
+                >
+                <input
+                  type="text"
+                  id="IdCust"
+                  name="entry.1285711467"
+                  class="form-control form-control-sm"
+                />
+              </div>
+            </div>
+
+            <!-- Buttons -->
+            <div class="mb-2">
+              <button
+                type="submit"
+                id="submitButton"
+                class="btn btn-primary btn-sm"
+              >
+                Submit
+              </button>
+              <button
+                type="button"
+                class="btn btn-secondary btn-sm"
+                onclick="window.location.reload()"
+              >
+                Cancel
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
