@@ -199,7 +199,6 @@
             <thead>
               <tr>
                 <th scope="col">No</th>
-                <th scope="col">NIK KTP</th>
                 <th scope="col">Nama Customer</th>
                 <th scope="col">Result KBIJ</th>
               </tr>
@@ -287,6 +286,7 @@
               setTimeout(function () {
                 Swal.fire("Berhasil!", "Formulir berhasil dikirim.", "success");
                 form.reset(); // Reset formulir
+                window.location.reload();
               }, 1000); // Waktu tunggu untuk simulasi
             })
             .catch(() => {
@@ -330,9 +330,10 @@
               const row = document.createElement("tr");
               row.innerHTML = `
                 <th scope="row">${index + 1}</th>
-                <td>${item["NIK KTP"]}</td>
                 <td>${item["Nama Customer"]}</td>
-                <td>${item["Result KBIJ"]}</td>
+                <td>${item["Result KBIJ"]}, Kol ${item["KOL"]}, Max DPD ${
+                item["Max DPD"]
+              }, Baki Debit ${item["Baki Debit"]}</td>
               `;
               tbody.appendChild(row);
             });
