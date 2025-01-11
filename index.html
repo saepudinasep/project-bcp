@@ -329,12 +329,16 @@
               console.log(item);
               const row = document.createElement("tr");
               row.innerHTML = `
-                <th scope="row">${index + 1}</th>
-                <td>${item["Nama Customer"]}</td>
-                <td>${item["Result KBIJ"]}, Kol ${item["KOL"]}, Max DPD ${
-                item["Max DPD"]
-              }, Baki Debit ${item["Baki Debit"]}</td>
-              `;
+              <th scope="row">${index + 1}</th>
+              <td>${item["Nama Customer"]}</td>
+              <td>
+                ${
+                  ["NO", "no", "No", "nO"].includes(item["Result KBIJ"])
+                    ? `${item["Result KBIJ"]}, Kol ${item["KOL"]}, Max DPD ${item["Max DPD"]}, Baki Debit ${item["Baki Debit"]}`
+                    : item["Result KBIJ"]
+                }
+              </td>
+            `;
               tbody.appendChild(row);
             });
           } else {
