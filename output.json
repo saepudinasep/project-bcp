@@ -1,0 +1,834 @@
+[
+    {
+        "Region":"BU I - JABODEBEK",
+        "Cabang":"BEKASI 1 BEKASI BARAT"
+    },
+    {
+        "Region":"BU I - JABODEBEK",
+        "Cabang":"BEKASI 2 TAMBUN SELATAN"
+    },
+    {
+        "Region":"BU I - JABODEBEK",
+        "Cabang":"BEKASI 4 JATIASIH"
+    },
+    {
+        "Region":"BU I - JABODEBEK",
+        "Cabang":"BEKASI 5 HARAPAN INDAH"
+    },
+    {
+        "Region":"BU I - JABODEBEK",
+        "Cabang":"BOGOR"
+    },
+    {
+        "Region":"BU I - JABODEBEK",
+        "Cabang":"BOGOR 4 JONGGOL"
+    },
+    {
+        "Region":"BU I - JABODEBEK",
+        "Cabang":"CIBINONG"
+    },
+    {
+        "Region":"BU I - JABODEBEK",
+        "Cabang":"CIKARANG"
+    },
+    {
+        "Region":"BU I - JABODEBEK",
+        "Cabang":"CILEUNGSI"
+    },
+    {
+        "Region":"BU I - JABODEBEK",
+        "Cabang":"DAAN MOGOT"
+    },
+    {
+        "Region":"BU I - JABODEBEK",
+        "Cabang":"DEPOK"
+    },
+    {
+        "Region":"BU I - JABODEBEK",
+        "Cabang":"JAKARTA BARAT 2 KEBON JERUK"
+    },
+    {
+        "Region":"BU I - JABODEBEK",
+        "Cabang":"JAKARTA PUSAT"
+    },
+    {
+        "Region":"BU I - JABODEBEK",
+        "Cabang":"JAKARTA SELATAN 1 PASAR MINGGU"
+    },
+    {
+        "Region":"BU I - JABODEBEK",
+        "Cabang":"JAKARTA SELATAN 2 KEBAYORAN LAMA"
+    },
+    {
+        "Region":"BU I - JABODEBEK",
+        "Cabang":"JAKARTA TIMUR 1 DUREN SAWIT"
+    },
+    {
+        "Region":"BU I - JABODEBEK",
+        "Cabang":"JAKARTA TIMUR 2 CIPAYUNG"
+    },
+    {
+        "Region":"BU I - JABODEBEK",
+        "Cabang":"JAKARTA UTARA 1 CILINCING"
+    },
+    {
+        "Region":"BU I - JABODEBEK",
+        "Cabang":"JAKARTA UTARA 2 PENJARINGAN"
+    },
+    {
+        "Region":"BU I - JABODEBEK",
+        "Cabang":"JOGLO - DAAN MOGOT"
+    },
+    {
+        "Region":"BU I - JABODEBEK",
+        "Cabang":"KARAWANG"
+    },
+    {
+        "Region":"BU I - JABODEBEK",
+        "Cabang":"LEUWILIANG"
+    },
+    {
+        "Region":"BU I - JABODEBEK",
+        "Cabang":"PANCORAN MAS - DEPOK"
+    },
+    {
+        "Region":"BU III - JAWA BARAT",
+        "Cabang":"BANDUNG 1 REGOL"
+    },
+    {
+        "Region":"BU III - JAWA BARAT",
+        "Cabang":"BANDUNG 2 SOREANG"
+    },
+    {
+        "Region":"BU III - JAWA BARAT",
+        "Cabang":"BANDUNG 3 SETIABUDI"
+    },
+    {
+        "Region":"BU III - JAWA BARAT",
+        "Cabang":"BANDUNG 4 UJUNG BERUNG"
+    },
+    {
+        "Region":"BU III - JAWA BARAT",
+        "Cabang":"CIAMIS-TASIKMALAYA"
+    },
+    {
+        "Region":"BU III - JAWA BARAT",
+        "Cabang":"CIANJUR"
+    },
+    {
+        "Region":"BU III - JAWA BARAT",
+        "Cabang":"CIMAHI"
+    },
+    {
+        "Region":"BU III - JAWA BARAT",
+        "Cabang":"CIREBON"
+    },
+    {
+        "Region":"BU III - JAWA BARAT",
+        "Cabang":"GARUT"
+    },
+    {
+        "Region":"BU III - JAWA BARAT",
+        "Cabang":"JATIBARANG"
+    },
+    {
+        "Region":"BU III - JAWA BARAT",
+        "Cabang":"KANDANGHAUR - JATIBARANG"
+    },
+    {
+        "Region":"BU III - JAWA BARAT",
+        "Cabang":"KUNINGAN"
+    },
+    {
+        "Region":"BU III - JAWA BARAT",
+        "Cabang":"MAJALENGKA"
+    },
+    {
+        "Region":"BU III - JAWA BARAT",
+        "Cabang":"PURWAKARTA"
+    },
+    {
+        "Region":"BU III - JAWA BARAT",
+        "Cabang":"SUKABUMI"
+    },
+    {
+        "Region":"BU III - JAWA BARAT",
+        "Cabang":"SUMEDANG"
+    },
+    {
+        "Region":"BU III - JAWA BARAT",
+        "Cabang":"TASIKMALAYA"
+    },
+    {
+        "Region":"BU IX - SULAWESI",
+        "Cabang":"AIRMADIDI - MANADO"
+    },
+    {
+        "Region":"BU IX - SULAWESI",
+        "Cabang":"BITUNG"
+    },
+    {
+        "Region":"BU IX - SULAWESI",
+        "Cabang":"BULUKUMBA"
+    },
+    {
+        "Region":"BU IX - SULAWESI",
+        "Cabang":"GORONTALO"
+    },
+    {
+        "Region":"BU IX - SULAWESI",
+        "Cabang":"GOWA"
+    },
+    {
+        "Region":"BU IX - SULAWESI",
+        "Cabang":"ISIMU - GORONTALO"
+    },
+    {
+        "Region":"BU IX - SULAWESI",
+        "Cabang":"KENDARI"
+    },
+    {
+        "Region":"BU IX - SULAWESI",
+        "Cabang":"KOTAMOBAGU"
+    },
+    {
+        "Region":"BU IX - SULAWESI",
+        "Cabang":"MAKASSAR 1 PANAKKUKANG"
+    },
+    {
+        "Region":"BU IX - SULAWESI",
+        "Cabang":"MAKASSAR 2 BIRINGKANAYA"
+    },
+    {
+        "Region":"BU IX - SULAWESI",
+        "Cabang":"MAMUJU"
+    },
+    {
+        "Region":"BU IX - SULAWESI",
+        "Cabang":"MANADO"
+    },
+    {
+        "Region":"BU IX - SULAWESI",
+        "Cabang":"PALOPO"
+    },
+    {
+        "Region":"BU IX - SULAWESI",
+        "Cabang":"PALU"
+    },
+    {
+        "Region":"BU IX - SULAWESI",
+        "Cabang":"PANGKEP"
+    },
+    {
+        "Region":"BU IX - SULAWESI",
+        "Cabang":"PARE-PARE"
+    },
+    {
+        "Region":"BU IX - SULAWESI",
+        "Cabang":"PINRANG"
+    },
+    {
+        "Region":"BU IX - SULAWESI",
+        "Cabang":"POHUWATO-MARISA"
+    },
+    {
+        "Region":"BU V - JATENG SELATAN",
+        "Cabang":"BANJARNEGARA"
+    },
+    {
+        "Region":"BU V - JATENG SELATAN",
+        "Cabang":"BANYUMAS 1 AJIBARANG"
+    },
+    {
+        "Region":"BU V - JATENG SELATAN",
+        "Cabang":"BOYOLALI"
+    },
+    {
+        "Region":"BU V - JATENG SELATAN",
+        "Cabang":"CILACAP 1 CILACAP UTARA"
+    },
+    {
+        "Region":"BU V - JATENG SELATAN",
+        "Cabang":"CILACAP 2 SIDAREJA"
+    },
+    {
+        "Region":"BU V - JATENG SELATAN",
+        "Cabang":"CILACAP 3 MAJENANG"
+    },
+    {
+        "Region":"BU V - JATENG SELATAN",
+        "Cabang":"KEBUMEN 1 KEBUMEN"
+    },
+    {
+        "Region":"BU V - JATENG SELATAN",
+        "Cabang":"KEBUMEN 2 GOMBONG"
+    },
+    {
+        "Region":"BU V - JATENG SELATAN",
+        "Cabang":"KLATEN"
+    },
+    {
+        "Region":"BU V - JATENG SELATAN",
+        "Cabang":"MAGELANG"
+    },
+    {
+        "Region":"BU V - JATENG SELATAN",
+        "Cabang":"MUNTILAN - MAGELANG"
+    },
+    {
+        "Region":"BU V - JATENG SELATAN",
+        "Cabang":"PURBALINGGA"
+    },
+    {
+        "Region":"BU V - JATENG SELATAN",
+        "Cabang":"PURWOKERTO"
+    },
+    {
+        "Region":"BU V - JATENG SELATAN",
+        "Cabang":"PURWOREJO"
+    },
+    {
+        "Region":"BU V - JATENG SELATAN",
+        "Cabang":"SLEMAN"
+    },
+    {
+        "Region":"BU V - JATENG SELATAN",
+        "Cabang":"SOLO"
+    },
+    {
+        "Region":"BU V - JATENG SELATAN",
+        "Cabang":"SRAGEN"
+    },
+    {
+        "Region":"BU V - JATENG SELATAN",
+        "Cabang":"SUKOHARJO - SOLO"
+    },
+    {
+        "Region":"BU V - JATENG SELATAN",
+        "Cabang":"WONOGIRI"
+    },
+    {
+        "Region":"BU V - JATENG SELATAN",
+        "Cabang":"WONOSOBO"
+    },
+    {
+        "Region":"BU V - JATENG SELATAN",
+        "Cabang":"YOGYAKARTA"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"BANYUWANGI"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"BLITAR"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"BOJONEGORO"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"CARUBAN - MADIUN"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"DENPASAR"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"GENTENG"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"GRESIK"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"JOMBANG"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"KEDIRI"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"KERTOSONO - NGANJUK"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"LAMONGAN"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"MADIUN"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"MAGETAN"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"MALANG 1 BLIMBING"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"MALANG 2 KEPANJEN"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"MATARAM"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"MOJOKERTO"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"MOJOKERTO 2 MOJOSARI"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"NGANJUK"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"NGAWI"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"PASURUAN"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"PONOROGO"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"ROGOJAMPI"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"SIDOARJO 1 SIDOARJO"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"SIDOARJO 2 KRIAN"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"SIDOARJO 3 WARU"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"SINGOSARI - MALANG 1 BLIMBING"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"SRENGAT - BLITAR"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"SURABAYA 1 SUKOLILO"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"SURABAYA 2 SUKOMANUNGGAL"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"SURABAYA 3 WIYUNG"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"SURABAYA 5 RUNGKUT"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"TABANAN"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"TAMBAKSARI - SURABAYA 1 SUKOLILO"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"TUBAN"
+    },
+    {
+        "Region":"BU VI - JATIM BALI",
+        "Cabang":"TULUNGAGUNG"
+    },
+    {
+        "Region":"BU VII - SUMBAGUT",
+        "Cabang":"AIR MOLEK"
+    },
+    {
+        "Region":"BU VII - SUMBAGUT",
+        "Cabang":"BAGAN BATU"
+    },
+    {
+        "Region":"BU VII - SUMBAGUT",
+        "Cabang":"BATAM"
+    },
+    {
+        "Region":"BU VII - SUMBAGUT",
+        "Cabang":"BATU AJI"
+    },
+    {
+        "Region":"BU VII - SUMBAGUT",
+        "Cabang":"BINJAI"
+    },
+    {
+        "Region":"BU VII - SUMBAGUT",
+        "Cabang":"DUMAI"
+    },
+    {
+        "Region":"BU VII - SUMBAGUT",
+        "Cabang":"DURI"
+    },
+    {
+        "Region":"BU VII - SUMBAGUT",
+        "Cabang":"KARO"
+    },
+    {
+        "Region":"BU VII - SUMBAGUT",
+        "Cabang":"KERINCI"
+    },
+    {
+        "Region":"BU VII - SUMBAGUT",
+        "Cabang":"LANGKAT 1 STABAT"
+    },
+    {
+        "Region":"BU VII - SUMBAGUT",
+        "Cabang":"LANGKAT 2 PANGKALAN BRANDAN"
+    },
+    {
+        "Region":"BU VII - SUMBAGUT",
+        "Cabang":"LUBUK PAKAM"
+    },
+    {
+        "Region":"BU VII - SUMBAGUT",
+        "Cabang":"MEDAN 1 MEDAN TIMUR"
+    },
+    {
+        "Region":"BU VII - SUMBAGUT",
+        "Cabang":"MEDAN 2 MEDAN SELAYANG"
+    },
+    {
+        "Region":"BU VII - SUMBAGUT",
+        "Cabang":"PADANG"
+    },
+    {
+        "Region":"BU VII - SUMBAGUT",
+        "Cabang":"PANAM - PEKANBARU 1 MARPOYAN DAMAI"
+    },
+    {
+        "Region":"BU VII - SUMBAGUT",
+        "Cabang":"PEKANBARU 1 MARPOYAN DAMAI"
+    },
+    {
+        "Region":"BU VII - SUMBAGUT",
+        "Cabang":"PEKANBARU 2 TENAYAN RAYA"
+    },
+    {
+        "Region":"BU VII - SUMBAGUT",
+        "Cabang":"PEMATANG SIANTAR"
+    },
+    {
+        "Region":"BU VII - SUMBAGUT",
+        "Cabang":"RANTAU PRAPAT"
+    },
+    {
+        "Region":"BU VII - SUMBAGUT",
+        "Cabang":"TANJUNG PINANG"
+    },
+    {
+        "Region":"BU VII - SUMBAGUT",
+        "Cabang":"TEBING TINGGI"
+    },
+    {
+        "Region":"BU VII - SUMBAGUT",
+        "Cabang":"TOBA"
+    },
+    {
+        "Region":"BU VIII - SUMBAGSEL",
+        "Cabang":"BATURAJA"
+    },
+    {
+        "Region":"BU VIII - SUMBAGSEL",
+        "Cabang":"BENGKULU"
+    },
+    {
+        "Region":"BU VIII - SUMBAGSEL",
+        "Cabang":"BETUNG"
+    },
+    {
+        "Region":"BU VIII - SUMBAGSEL",
+        "Cabang":"JAKABARING - PALEMBANG"
+    },
+    {
+        "Region":"BU VIII - SUMBAGSEL",
+        "Cabang":"JAMBI"
+    },
+    {
+        "Region":"BU VIII - SUMBAGSEL",
+        "Cabang":"KAYU AGUNG"
+    },
+    {
+        "Region":"BU VIII - SUMBAGSEL",
+        "Cabang":"KUALA TUNGKAL"
+    },
+    {
+        "Region":"BU VIII - SUMBAGSEL",
+        "Cabang":"LAHAT"
+    },
+    {
+        "Region":"BU VIII - SUMBAGSEL",
+        "Cabang":"LAMPUNG 1 TANJUNG KARANG PUSAT"
+    },
+    {
+        "Region":"BU VIII - SUMBAGSEL",
+        "Cabang":"LAMPUNG 2 PRINGSEWU"
+    },
+    {
+        "Region":"BU VIII - SUMBAGSEL",
+        "Cabang":"LAMPUNG TENGAH"
+    },
+    {
+        "Region":"BU VIII - SUMBAGSEL",
+        "Cabang":"LUBUK LINGGAU"
+    },
+    {
+        "Region":"BU VIII - SUMBAGSEL",
+        "Cabang":"METRO"
+    },
+    {
+        "Region":"BU VIII - SUMBAGSEL",
+        "Cabang":"MUARA ENIM"
+    },
+    {
+        "Region":"BU VIII - SUMBAGSEL",
+        "Cabang":"MUSI BANYUASIN"
+    },
+    {
+        "Region":"BU VIII - SUMBAGSEL",
+        "Cabang":"PALEMBANG 1 ILIR TIMUR SATU"
+    },
+    {
+        "Region":"BU VIII - SUMBAGSEL",
+        "Cabang":"PALEMBANG 2 BUKIT LAMA"
+    },
+    {
+        "Region":"BU VIII - SUMBAGSEL",
+        "Cabang":"PANGKALPINANG"
+    },
+    {
+        "Region":"BU VIII - SUMBAGSEL",
+        "Cabang":"PRABUMULIH"
+    },
+    {
+        "Region":"BU VIII - SUMBAGSEL",
+        "Cabang":"TANJUNG JABUNG BARAT"
+    },
+    {
+        "Region":"BU VIII - SUMBAGSEL",
+        "Cabang":"TEBO"
+    },
+    {
+        "Region":"BU VIII - SUMBAGSEL",
+        "Cabang":"TEMBESI"
+    },
+    {
+        "Region":"BU VIII - SUMBAGSEL",
+        "Cabang":"TUGU MULYO"
+    },
+    {
+        "Region":"BU XIII - BANTEN",
+        "Cabang":"BALARAJA"
+    },
+    {
+        "Region":"BU XIII - BANTEN",
+        "Cabang":"CIKUPA"
+    },
+    {
+        "Region":"BU XIII - BANTEN",
+        "Cabang":"CILEDUG"
+    },
+    {
+        "Region":"BU XIII - BANTEN",
+        "Cabang":"CIPUTAT"
+    },
+    {
+        "Region":"BU XIII - BANTEN",
+        "Cabang":"CIRUAS - SERANG"
+    },
+    {
+        "Region":"BU XIII - BANTEN",
+        "Cabang":"KHASANAH BSD"
+    },
+    {
+        "Region":"BU XIII - BANTEN",
+        "Cabang":"KHASANAH MAP CENTER CIPUTAT"
+    },
+    {
+        "Region":"BU XIII - BANTEN",
+        "Cabang":"MAUK"
+    },
+    {
+        "Region":"BU XIII - BANTEN",
+        "Cabang":"PARUNG - TANGERANG SELATAN 2 PAMULANG"
+    },
+    {
+        "Region":"BU XIII - BANTEN",
+        "Cabang":"SERANG"
+    },
+    {
+        "Region":"BU XIII - BANTEN",
+        "Cabang":"TANGERANG 1 GADING SERPONG"
+    },
+    {
+        "Region":"BU XIII - BANTEN",
+        "Cabang":"TANGERANG 2 CISAUK"
+    },
+    {
+        "Region":"BU XIII - BANTEN",
+        "Cabang":"TANGERANG 3 RAJEG"
+    },
+    {
+        "Region":"BU XIII - BANTEN",
+        "Cabang":"TANGERANG 4 TIGARAKSA"
+    },
+    {
+        "Region":"BU XIII - BANTEN",
+        "Cabang":"TANGERANG 5 KARAWACI"
+    },
+    {
+        "Region":"BU XIII - BANTEN",
+        "Cabang":"TANGERANG 6 TELUK NAGA"
+    },
+    {
+        "Region":"BU XIII - BANTEN",
+        "Cabang":"TANGERANG 7 CIPONDOH"
+    },
+    {
+        "Region":"BU XIII - BANTEN",
+        "Cabang":"TANGERANG SELATAN 2 PAMULANG"
+    },
+    {
+        "Region":"BU XIII - BANTEN",
+        "Cabang":"TANGERANG SELATAN 3 PONDOK AREN"
+    },
+    {
+        "Region":"BU XIV - JATENG UTARA",
+        "Cabang":"AMBARAWA - SEMARANG 2 UNGARAN BARAT"
+    },
+    {
+        "Region":"BU XIV - JATENG UTARA",
+        "Cabang":"BREBES 1 WANASARI"
+    },
+    {
+        "Region":"BU XIV - JATENG UTARA",
+        "Cabang":"BREBES 2 BUMIAYU"
+    },
+    {
+        "Region":"BU XIV - JATENG UTARA",
+        "Cabang":"JEPARA"
+    },
+    {
+        "Region":"BU XIV - JATENG UTARA",
+        "Cabang":"KENDAL"
+    },
+    {
+        "Region":"BU XIV - JATENG UTARA",
+        "Cabang":"KUDUS"
+    },
+    {
+        "Region":"BU XIV - JATENG UTARA",
+        "Cabang":"NGALIYAN - SEMARANG 1 SEMARANG SELATAN"
+    },
+    {
+        "Region":"BU XIV - JATENG UTARA",
+        "Cabang":"PEKALONGAN 1 WIRADESA"
+    },
+    {
+        "Region":"BU XIV - JATENG UTARA",
+        "Cabang":"PEKALONGAN 2 KAJEN"
+    },
+    {
+        "Region":"BU XIV - JATENG UTARA",
+        "Cabang":"PEMALANG 1 PEMALANG"
+    },
+    {
+        "Region":"BU XIV - JATENG UTARA",
+        "Cabang":"PEMALANG 2 RANDUDONGKAL"
+    },
+    {
+        "Region":"BU XIV - JATENG UTARA",
+        "Cabang":"PURWODADI"
+    },
+    {
+        "Region":"BU XIV - JATENG UTARA",
+        "Cabang":"SALATIGA"
+    },
+    {
+        "Region":"BU XIV - JATENG UTARA",
+        "Cabang":"SEMARANG 1 SEMARANG SELATAN"
+    },
+    {
+        "Region":"BU XIV - JATENG UTARA",
+        "Cabang":"SEMARANG 2 UNGARAN BARAT"
+    },
+    {
+        "Region":"BU XIV - JATENG UTARA",
+        "Cabang":"TEGAL 1 DUKUH TURI"
+    },
+    {
+        "Region":"BU XIV - JATENG UTARA",
+        "Cabang":"TEGAL 2 SLAWI"
+    },
+    {
+        "Region":"BU XV - KALIMANTAN",
+        "Cabang":"BALIKPAPAN"
+    },
+    {
+        "Region":"BU XV - KALIMANTAN",
+        "Cabang":"BANJARBARU"
+    },
+    {
+        "Region":"BU XV - KALIMANTAN",
+        "Cabang":"BANJARMASIN"
+    },
+    {
+        "Region":"BU XV - KALIMANTAN",
+        "Cabang":"BERAU"
+    },
+    {
+        "Region":"BU XV - KALIMANTAN",
+        "Cabang":"BONTANG"
+    },
+    {
+        "Region":"BU XV - KALIMANTAN",
+        "Cabang":"PALANGKARAYA"
+    },
+    {
+        "Region":"BU XV - KALIMANTAN",
+        "Cabang":"PANGKALAN BUN"
+    },
+    {
+        "Region":"BU XV - KALIMANTAN",
+        "Cabang":"PASER"
+    },
+    {
+        "Region":"BU XV - KALIMANTAN",
+        "Cabang":"SAMARINDA"
+    },
+    {
+        "Region":"BU XV - KALIMANTAN",
+        "Cabang":"SAMPIT"
+    },
+    {
+        "Region":"BU XV - KALIMANTAN",
+        "Cabang":"TENGGARONG"
+    }
+]

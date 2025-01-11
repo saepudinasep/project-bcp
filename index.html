@@ -34,53 +34,62 @@
                   <option value="mtr">MotorKu</option>
                   <option value="mbl">MobilKu</option>
                 </select>
-                <div class="invalid-feedback">Brand harus dipilih!</div>
               </div>
               <div class="col-md-6">
-                <label for="errorSystem" class="form-label small text-muted"
+                <label for="region" class="form-label small text-muted"
                   >Region</label
                 >
                 <select
-                  id="errorSystem"
+                  id="region"
                   name="entry.900671353"
                   class="form-select form-select-sm"
                 >
                   <option value="">-- Pilih Region --</option>
-                  <option value="jabodebek">JABODEBEK</option>
-                  <option value="mss">SUMBAGUT</option>
-                  <option value="wise">SUMBAGSEL</option>
-                  <option value="login">SULAWESI</option>
+                  <!-- Region options will be added dynamically -->
                 </select>
               </div>
             </div>
 
-            <!-- Cabang and Cabang -->
+            <!-- Cabang and NIK -->
             <div class="row mb-2">
               <div class="col-md-6">
-                <label for="region" class="form-label small text-muted"
+                <label for="cabang" class="form-label small text-muted"
                   >Cabang</label
                 >
                 <select
-                  id="region"
+                  id="cabang"
                   name="entry.453750574"
                   class="form-select form-select-sm"
                 >
                   <option value="">-- Pilih Cabang --</option>
-                  <!-- Region options will be added dynamically -->
+                  <!-- Cabang options will be added dynamically -->
                 </select>
               </div>
               <div class="col-md-6">
                 <label for="nik" class="form-label small text-muted"
-                  >NIK - Nama</label
+                  >NIK Karyawan</label
                 >
-                <select
-                  id="cabang"
-                  name="entry.27483305"
-                  class="form-select form-select-sm"
+                <input
+                  type="text"
+                  id="nik"
+                  name="entry.349701399"
+                  class="form-control form-control-sm"
+                />
+              </div>
+            </div>
+
+            <!-- Nama -->
+            <div class="row mb-2">
+              <div class="col-md-12">
+                <label for="nama" class="form-label small text-muted"
+                  >Nama</label
                 >
-                  <option value="">-- Pilih NIK - Nama --</option>
-                  <!-- Cabang options will be added dynamically -->
-                </select>
+                <input
+                  type="text"
+                  id="nama"
+                  name="entry.349701399"
+                  class="form-control form-control-sm"
+                />
               </div>
             </div>
             <h5 class="card-title mt-4">Data Pemohon</h5>
