@@ -11,6 +11,19 @@
       crossorigin="anonymous"
     />
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+      // Menonaktifkan Klik Kanan
+      document.addEventListener("contextmenu", function (e) {
+        e.preventDefault();
+      });
+
+      // Menonaktifkan F12 dan Inspect Element
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "F12" || (e.ctrlKey && e.shiftKey && e.key === "I")) {
+          e.preventDefault();
+        }
+      });
+    </script>
   </head>
   <body class="bg-light">
     <div class="container py-3">
