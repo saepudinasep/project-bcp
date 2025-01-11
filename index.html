@@ -10,6 +10,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </head>
   <body class="bg-light">
     <div class="container py-3">
@@ -27,12 +28,17 @@
                 <label for="brand" class="form-label small text-muted"
                   >Brand</label
                 >
-                <select id="brand" class="form-select form-select-sm" required>
+                <select
+                  id="brand"
+                  name="entry.69261723"
+                  class="form-select form-select-sm"
+                  required
+                >
                   <option value="">-- Pilih Brand --</option>
-                  <option value="nb">Reguler</option>
-                  <option value="mas">MasKu</option>
-                  <option value="mtr">MotorKu</option>
-                  <option value="mbl">MobilKu</option>
+                  <option value="Reguler">Reguler</option>
+                  <option value="MasKu">MasKu</option>
+                  <option value="MotorKu">MotorKu</option>
+                  <option value="MobilKu">MobilKu</option>
                 </select>
               </div>
               <div class="col-md-6">
@@ -41,7 +47,7 @@
                 >
                 <select
                   id="region"
-                  name="entry.900671353"
+                  name="entry.545173778"
                   class="form-select form-select-sm"
                 >
                   <option value="">-- Pilih Region --</option>
@@ -58,7 +64,7 @@
                 >
                 <select
                   id="cabang"
-                  name="entry.453750574"
+                  name="entry.95778692"
                   class="form-select form-select-sm"
                 >
                   <option value="">-- Pilih Cabang --</option>
@@ -72,7 +78,7 @@
                 <input
                   type="number"
                   id="nik"
-                  name="entry.349701399"
+                  name="entry.741332940"
                   class="form-control form-control-sm"
                 />
               </div>
@@ -87,7 +93,7 @@
                 <input
                   type="text"
                   id="nama"
-                  name="entry.349701399"
+                  name="entry.2094592601"
                   class="form-control form-control-sm"
                 />
               </div>
@@ -96,24 +102,24 @@
             <!-- Nama Cust and NIK KTP -->
             <div class="row mb-4">
               <div class="col-md-6">
-                <label for="NCust" class="form-label small text-muted"
-                  >Nama Cust</label
-                >
-                <input
-                  type="text"
-                  id="NCust"
-                  name="entry.349701399"
-                  class="form-control form-control-sm"
-                />
-              </div>
-              <div class="col-md-6">
                 <label for="nikC" class="form-label small text-muted"
                   >NIK KTP</label
                 >
                 <input
                   type="number"
                   id="nikC"
-                  name="entry.1285711467"
+                  name="entry.1551384863"
+                  class="form-control form-control-sm"
+                />
+              </div>
+              <div class="col-md-6">
+                <label for="NCust" class="form-label small text-muted"
+                  >Nama Cust</label
+                >
+                <input
+                  type="text"
+                  id="NCust"
+                  name="entry.686554731"
                   class="form-control form-control-sm"
                 />
               </div>
@@ -192,6 +198,36 @@
         })
         .catch((error) => {
           console.error("Error fetching JSON:", error);
+        });
+
+      // Event listener untuk validasi saat form disubmit
+      document
+        .getElementById("faqForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          const form = document.getElementById("faqForm");
+          form.action =
+            "https://docs.google.com/forms/d/e/1FAIpQLSf1ZnqQprAIKQw-yaQTuILKBh7G8ZCReRGTdKfym50uE9xSfw/formResponse";
+          form.method = "POST";
+          // form.submit();
+          // Menggunakan fetch untuk mengirim data ke Google Forms
+          fetch(form.action, {
+            method: "POST",
+            body: new FormData(form),
+            mode: "no-cors", // CORS tidak diperiksa
+          })
+            .then(() => {
+              // Menunggu untuk pengiriman berhasil
+              setTimeout(function () {
+                Swal.fire("Berhasil!", "Formulir berhasil dikirim.", "success");
+                form.reset(); // Reset formulir
+              }, 1000); // Waktu tunggu untuk simulasi
+            })
+            .catch(() => {
+              // Jika gagal mengirim data
+              Swal.fire("Gagal!", "Pengiriman formulir gagal.", "error");
+            });
         });
     </script>
   </body>
