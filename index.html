@@ -271,6 +271,50 @@
         .addEventListener("submit", function (e) {
           e.preventDefault();
 
+          // Ambil nilai dari setiap field
+          const brand = document.getElementById("brand").value.trim();
+          const region = document.getElementById("region").value.trim();
+          const cabang = document.getElementById("cabang").value.trim();
+          const nikKaryawan = document.getElementById("nik").value.trim();
+          const nama = document.getElementById("nama").value.trim();
+          const nikKTP = document.getElementById("nikC").value.trim();
+          const namaCust = document.getElementById("NCust").value.trim();
+
+          // Validasi kosong
+          if (
+            !brand ||
+            !region ||
+            !cabang ||
+            !nikKaryawan ||
+            !nama ||
+            !nikKTP ||
+            !namaCust
+          ) {
+            Swal.fire("Gagal!", "Semua field harus diisi.", "error");
+            return;
+          }
+
+          // Validasi NIK KTP: harus 16 digit, tidak boleh negatif
+          if (!/^\d{16}$/.test(nikKTP)) {
+            Swal.fire(
+              "Gagal!",
+              "NIK KTP harus terdiri dari 16 digit dan tidak boleh negatif.",
+              "error"
+            );
+            return;
+          }
+
+          // Validasi NIK Karyawan: minimal 8 digit dan maksimal 9 digit
+          if (!/^\d{8,9}$/.test(nikKaryawan)) {
+            Swal.fire(
+              "Gagal!",
+              "NIK Karyawan harus terdiri dari 8 hingga 9 digit.",
+              "error"
+            );
+            return;
+          }
+
+          // Jika semua validasi lolos, kirim formulir
           const form = document.getElementById("faqForm");
           form.action =
             "https://docs.google.com/forms/d/e/1FAIpQLSerVaqsrIt7blOl3pinUvIVMT9v1UIjiPjpB9lGuPawyYRfqA/formResponse";
