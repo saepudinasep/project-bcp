@@ -146,5 +146,53 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      // Elements
+      const regionSelect = document.getElementById("region");
+      const cabangSelect = document.getElementById("cabang");
+
+      // Fetch data from output.json
+      fetch("output.json")
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          return response.json();
+        })
+        .then((data) => {
+          // Populate Region options dynamically
+          const regions = [...new Set(data.map((item) => item.Region))];
+          regions.forEach((region) => {
+            const option = document.createElement("option");
+            option.value = region;
+            option.textContent = region;
+            regionSelect.appendChild(option);
+          });
+
+          // Handle Region selection change
+          regionSelect.addEventListener("change", function () {
+            const selectedRegion = this.value;
+
+            // Clear previous Cabang options
+            cabangSelect.innerHTML =
+              '<option value="">-- Pilih Cabang --</option>';
+
+            // Filter Cabang options based on selected Region
+            const filteredCabang = data.filter(
+              (item) => item.Region === selectedRegion
+            );
+            filteredCabang.forEach((item) => {
+              const option = document.createElement("option");
+              option.value = item.Cabang;
+              option.textContent = item.Cabang;
+              cabangSelect.appendChild(option);
+            });
+          });
+        })
+        .catch((error) => {
+          console.error("Error fetching JSON:", error);
+        });
+    </script>
   </body>
 </html>
