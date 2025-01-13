@@ -13,7 +13,7 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
-    <script>
+    <!-- <script>
       // Menonaktifkan Klik Kanan
       document.addEventListener("contextmenu", function (e) {
         e.preventDefault();
@@ -25,7 +25,7 @@
           e.preventDefault();
         }
       });
-    </script>
+    </script> -->
   </head>
   <body class="bg-light">
     <div class="container py-3">
@@ -387,6 +387,8 @@
                 ${
                   ["NO", "no", "No", "nO"].includes(item["Result KBIJ"])
                     ? `${item["Result KBIJ"]}, Kol ${item["KOL"]}, Max DPD ${item["Max DPD"]}, Baki Debit ${item["Baki Debit"]}`
+                    : item["Result KBIJ"] === "#N/A"
+                    ? `${item["Result KBIJ"]}, ${item["KOL"]}, Max DPD ${item["Max DPD"]}, ${item["Baki Debit"]}`
                     : item["Result KBIJ"]
                 }
               </td>
