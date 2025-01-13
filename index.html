@@ -147,6 +147,23 @@
               </div>
             </div>
 
+            <!-- Date -->
+            <div class="row mb-2">
+              <div class="col-md-12">
+                <label for="tglLahir" class="form-label small text-muted"
+                  >Tanggal Lahir</label
+                >
+                <span class="text-danger">*</span>
+                <input
+                  type="date"
+                  id="tglLahir"
+                  name="entry.1300078982"
+                  class="form-control form-control-sm"
+                  min="1900-01-01"
+                />
+              </div>
+            </div>
+
             <!-- Buttons -->
             <div class="mb-2">
               <button
@@ -226,6 +243,10 @@
     ></script>
 
     <script>
+      // Validasi maksimal tanggal lahir adalah hari ini
+      const tglLahirInput = document.getElementById("tglLahir");
+      const today = new Date().toISOString().split("T")[0]; // Format tanggal ISO (YYYY-MM-DD)
+      tglLahirInput.setAttribute("max", today);
       // Elements
       const regionSelect = document.getElementById("region");
       const cabangSelect = document.getElementById("cabang");
@@ -286,6 +307,7 @@
           const nama = document.getElementById("nama").value.trim();
           const nikKTP = document.getElementById("nikC").value.trim();
           const namaCust = document.getElementById("NCust").value.trim();
+          const tglLahir = document.getElementById("tglLahir").value.trim();
 
           // Validasi kosong
           if (
@@ -295,7 +317,8 @@
             !nikKaryawan ||
             !nama ||
             !nikKTP ||
-            !namaCust
+            !namaCust ||
+            !tglLahir
           ) {
             Swal.fire("Gagal!", "Semua field harus diisi.", "error");
             return;
